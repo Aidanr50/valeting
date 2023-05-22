@@ -1,20 +1,20 @@
 {
-  "title": "TEAtime Starter",
-  "description": "A TEAtime starter project",
-  "author": "Alan Mosely",
-  "image": "/img/logo.png",
+  "title": "Diamond Detailing",
+  "description": "Automotive detailing in the Abderdeen/Aberdeenshire area",
+  "author": "Aidan Ross",
+  "image": "/img/logo-small.svg",
   "language": "en",
   "repo": "https://github.com/alanmosely/teatime-starter",
   "social": [
     {
-      "title": "GitHub",
-      "url": "https://github.com/alanmosely",
-      "image": "/img/github.svg"
+      "title": "Facebook",
+      "url": "https://www.facebook.com/mitchellsdetail/",
+      "image": "/img/Facebook.webp"
     },
     {
-      "title": "Medium",
-      "url": "https://medium.com/@alan.mosely",
-      "image": "/img/medium.svg"
+      "title": "Instagram",
+      "url": "https://www.instagram.com/mitchells_detailing/",
+      "image": "/img/Instagram.webp"
     }
   ]
 }

@@ -13,6 +13,8 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
       customRed: '#BB2637',
+      lightGray: '#242424',
+      darkGray: '#0f0f0f',
       black: colors.black,
       white: colors.white,
       gray: colors.gray,
@@ -25,6 +27,7 @@ module.exports = {
     backgroundImage: {
       'hero-lg': "url('../img/hero.webp')",
       'hero-sm': "url('../img/hero-mobile.webp')",
+      'carbon': "url('../img/carbon-fiber.avif')"
     },
     extend: {},
   },
