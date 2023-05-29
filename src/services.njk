@@ -1,0 +1,10 @@
+---
+layout: page.njk
+title: Services
+---
+
+<h1>Our Valeting Services</h1>
+
+{%- for card in collections.cards -%}
+    {% include "card.njk" %}
+{%- endfor -%}
