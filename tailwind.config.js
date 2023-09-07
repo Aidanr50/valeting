@@ -23,11 +23,15 @@ module.exports = {
       green: colors.emerald,
       blue: colors.blue,
       indigo: colors.indigo,
+      orange: colors.orange
     },
     backgroundImage: {
       'hero-lg': "url('../img/hero.webp')",
       'hero-sm': "url('../img/hero-mobile.webp')",
       'carbon': "url('../img/carbon-fiber.avif')"
+    },
+    fontFamily: {
+      'body': ['roboto-condensed']
     },
     extend: {},
   },

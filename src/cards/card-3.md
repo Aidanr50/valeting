@@ -1,9 +1,9 @@
 ---
-product: Stage 2
+product: Stage 3
 tagline: A deeper decontamination and protection for your vehicle
-priceSmall: £50
-priceLarge: £75
-color: text-gray-400
+priceSmall: £100
+priceLarge: £135
+color: text-yellow-500
 tags:
     - cards
 ---

@@ -23,4 +23,8 @@
   a {
     @apply cursor-pointer hover:underline;
   }
+
+  p {
+    @apply text-gray-300
+  }
 }
