@@ -4,22 +4,23 @@ isFront: true
 title: Home
 ---
 <header
-    class="header w-full min-h-[-webkit-fill-available] sm:min-h-screen flex flex-col justify-around bg-cover sm:bg-center sm:bg-fixed bg-hero-sm sm:bg-hero-lg">
+    class="header w-full min-h-[-webkit-fill-available] sm:min-h-screen flex flex-col justify-center bg-cover sm:bg-center sm:bg-fixed bg-hero-sm sm:bg-hero-lg">
     <div class="h-full absolute inset-0 bg-black opacity-80 z-0"></div>
     {% include "navbar.njk" %}
-    <div class="flex flex-col justify-center h-full pt-16 z-10">
-        <div class="flex flex-col items-center self-center w-full px-4 sm:flex-row md:w-5/6 xl:w-2/3 sm:px-0">
-            <div class="w-full pb-12 text-center sm:px-8">
-                <h1 class="mb-6 font-bold tracking-wide text-white marker:text-2xl sm:text-4xl">Diamond Detailing</h1>
-                <p class="text-lg font-bold text-white [text-shadow: 0px 0px 1px whitesmoke]">Car valeting to the diamond standard</p>
+    <div class="bg-black border-2 border-white z-10 w-3/4 mx-auto">
+        <div class="flex flex-col justify-center h-full pt-16">
+            <div class="flex flex-col items-center self-center w-full px-4 sm:flex-row md:w-5/6 xl:w-2/3 sm:px-0">
+                <div class="w-full pb-12 text-center sm:px-8">
+                    <h1 class="mb-6 font-bold tracking-wide text-white marker:text-2xl sm:text-4xl">Diamond Detailing</h1>
+                    <p class="text-lg font-bold text-white [text-shadow: 0px 0px 1px whitesmoke]">Car valeting to the diamond standard</p>
+                </div>
             </div>
         </div>
+        <div class="flex flex-row justify-center w-full pb-10">
+            <a class="px-10 py-2 text-lg text-white font-bold rounded-sm shadow-md border-red-600 border-2 bg-opacity-80 hover:bg-opacity-50 hover:no-underline"
+                href="/book">Book Now</a>
+        </div>
     </div>
-    <div class="flex flex-row justify-center w-full pb-10 z-10">
-        <a class="px-10 py-2 text-lg text-white font-bold rounded-sm shadow-md border-red-600 border-2 bg-opacity-80 hover:bg-opacity-50 hover:no-underline"
-            href="/book">Book Now</a>
-    </div>
-    <div class="absolute bottom-0 left-0 file:bg-black"></div>
 </header>
 <main>
     <div id="about" class="flex flex-col items-center justify-center w-full text-white">
